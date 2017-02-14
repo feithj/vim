@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/root/puppetcode/modules/users/manifests'
+let g:netrw_dirhist_2='/root/puppetcode/modules/cron/manifests'
+let g:netrw_dirhist_3='/root/puppetcode/modules/host/manifest'
+let g:netrw_dirhist_4='/root/puppetcode/modules/hosts'
+let g:netrw_dirhist_5='/root/puppetcode/modules/nginx/manifests'
+let g:netrw_dirhist_6='/root/puppetcode/modules/mysql/manifests/server'
+let g:netrw_dirhist_7='/home/feithj/.ssh'
