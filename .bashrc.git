@@ -1,4 +1,16 @@
-# NOTE: This file is managed by Puppet; any changes you make will be erased.
+
+#-------------------------------------------------------------------------------
+# This Adds color coding to your bash prompt based on state of your GIT Repo
+# 
+#
+# [branch]id@hostname:/dir/path
+# branch: 
+#   red    (your repo needs a commit)
+#   yellow (your repo needs a push)
+#   cyan   (your repo is up2date)
+# 
+#-------------------------------------------------------------------------------
+
 
 parse_git_branch ()
 {
