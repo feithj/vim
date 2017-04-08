@@ -7,12 +7,12 @@ set modeline
 set bg=dark
 set number    " turns on line numbers by default
 
-" Adds pathogen which is in .vim/autoload
+"Adds pathogen which is in .vim/autoload
 execute pathogen#infect()
 
 " plugin for markdown
-"Plugin 'godlygeek/tabular'
-"Plugin 'plasticboy/vim-markdown'
+" Plugin 'godlygeek/tabular'
+" Plugin 'plasticboy/vim-markdown'
 
 syntax on
 
