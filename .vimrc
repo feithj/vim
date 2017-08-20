@@ -42,3 +42,14 @@ au BufRead,BufNewFile *_spec.rb
 " Enable indentation matching for =>'s
 " filetype plugin indent on  --disabled going to use everything
 filetype plugin on
+
+" Searching setup
+set incsearch           " search as characters are entered
+set hlsearch            " highlight matches
+
+" Code Folding .. makes it easier to travel the file
+set foldenable          " Enable folding
+set foldlevelstart=10   " open most folds by default
+set foldnestmax=10      " 10 nested fold max
+set foldmethod=indent   " fold based on ident level
+

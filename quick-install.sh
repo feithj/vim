@@ -33,7 +33,10 @@ gid=`id -g`
 #-------------------------------------------------------------------------------
 
 echo -e "copying profiles to home directory with uid:$uid and gid:$gid"
-chown $uid:gid .bashrc* .vimrc
-cp -pr .bashrc* ~/
+chown $uid:gid ~/.bashrc* ~/.vimrc
+mv ~/.bashrc ~/.bashrc.bak
+mv ~/.vimrc ~/.vimrc.bak
+
+#cp -pr .bashrc* ~/
 cp -pr .vimrc ~/
 
