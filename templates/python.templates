@@ -1,14 +1,23 @@
-
-#! /usr/bin/env python
-# -*- coding: utf-8 -*-
-# vim:fenc=utf-8
+#! /usr/bin/env python3
+#===============================================================================
 #
-# Copyright © %YEAR% %USER% <%MAIL%>
+#          FILE:
 #
-# Distributed under terms of the %LICENSE% license.
+#         USAGE:
+#
+#   DESCRIPTION:
+#
+#       OPTIONS: ---
+#  REQUIREMENTS: ---
+#          BUGS: ---
+#         NOTES: ---
+#        AUTHOR: Jesse Feith (System Administrator), jesse.feith@invesco.com
+#  ORGANIZATION: Unix
+#       CREATED:
+#      REVISION: ---
+#  MODIFICATION: ---
+#         TODOS: ---
+#      HOSTNAME:
+#===============================================================================
 
-%USER%
 
-"""
-%HERE%
-"""
